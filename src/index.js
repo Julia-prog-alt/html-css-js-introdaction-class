@@ -1,3 +1,4 @@
+console.log("Launching script");
 const anchors = document.querySelectorAll(".thubnails-anchor");
 const detailsImage = document.querySelector("details-image");
 const detailsTitle = document.querySelector("details-title");
@@ -7,6 +8,7 @@ function setDetails (anchor) {
 }
 for(let i = 0; < anchors.length; i++) {
     anchors[i].addEventListener("click",function(){
+        console.log("event - click on ", anchor[i];)
         setDetails(anchors[i]);
     })
 }

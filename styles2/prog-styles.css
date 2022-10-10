@@ -1,10 +1,10 @@
 @font-face {
     font-family: lakeshore;
-    src: url("LAKESHOR-webfont.svg");
-    src: url("fonts/LAKESHOR-webfont.woff")
+    src: url("/fonts/LAKESHOR-webfont.svg");
+    src: url("/fonts/LAKESHOR-webfont.woff");
 
 }
-@fontfase {
+@font-face {
     font-family:airsteam;
     src: url("fonts/Airstream-webfont.svg");
     src: url("fonts/Airsteam-webfont.woff")
