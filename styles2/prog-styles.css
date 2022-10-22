@@ -212,8 +212,8 @@ text-decoration: none;
         display: flex;
 
 
-
-    .details-image{
+    }
+    .details-image {
         width: 32vw;
         height: 34vw;
     }
