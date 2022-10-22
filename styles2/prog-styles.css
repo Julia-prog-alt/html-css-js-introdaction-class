@@ -1,11 +1,11 @@
 @font-face {
     font-family: lakeshore;
     src: url("/fonts/LAKESHOR-webfont.svg");
-    src: url("/fonts/LAKESHOR-webfont.ttf");
+    src: url("/fonts/LAKESHOR-webfont.woff");
 
 }
 @font-face {
-    font-family:airsteam;
+    font-family:airstream;
     src: url("fonts/Airstream-webfont.svg");
     src: url("fonts/Airsteam-webfont.woff")
 
@@ -16,10 +16,10 @@
     --thumbnails-title-height: calc(var(--thumbnails-img-height)*0.33)
 
 }
-body, html{
+body, 
+html{
     height: 100%;
 }
-
 
 body{
     display: flex;
@@ -94,6 +94,7 @@ margin-bottom: 10vh;
 
 
 
+
 .thumbnails-list{
     list-style: none;
     display: flex;
@@ -111,8 +112,8 @@ margin-bottom: 10vh;
     margin-bottom: 10vh;
 }
 .thumbnails-item{
-width: var(--thumbnails-img-width);
-height: cal(var(--thumbnails-img-height)+ var(--thumbnails-title-height));
+max-width: var(--thumbnails-img-width);
+min-height: cal(var(--thumbnails-img-height)+ var(--thumbnails-title-height));
 margin-top: 2.5vh;
 border:solid 1px black;
 border-radius:25%;
@@ -164,6 +165,11 @@ text-decoration: none;
     flex-direction: row;
     justify-content: space-around;
    }
+   .main-class.hidden{
+    --thumbnails-img-width: 35vw;
+    --thumbnails-img-height: 25vw;
+    --thumbnails-title-height: calc(var(--thumbnails-img-height)* 0.33) 
+   }
 
    .details-image{
     width: 80vw;
@@ -173,6 +179,9 @@ text-decoration: none;
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
+   }
+   .details-container {
+    display: flex;
    }
 
 
@@ -193,8 +202,14 @@ text-decoration: none;
 
     }
 
-
-
+    .main-class.hidden {
+        --thumbnails-img-width: 35vw;
+        --thumbnails-img-height: 25vw;
+        --thumbnails-title-height: calc(var(--thumbnails-img-height)* 0.33) 
+    }
+    
+    .details-container {
+        display: flex;
 
 
 
