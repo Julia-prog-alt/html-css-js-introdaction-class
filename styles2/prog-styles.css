@@ -74,7 +74,7 @@ margin-bottom: 10vh;
     right:3vw;
 }
 .details-image{
-    width: 70vw;
+    width: 90vw;
     height: 70vw;
     border-radius: 25%;
 }
@@ -156,7 +156,7 @@ text-decoration: none;
     .thumbnails-list{
     flex-direction: column;
     flex-wrap: nowrap;
-    max-height: 80vh;
+    max-height: 75vh;
     order:-1;
     justify-content: flex-start;
    }
@@ -172,8 +172,8 @@ text-decoration: none;
    }
 
    .details-image{
-    width: 80vw;
-    height: 80vw;
+    width: 45vw;
+    height: 38vw;
    }
    .details-contriner{
     justify-content: center;
