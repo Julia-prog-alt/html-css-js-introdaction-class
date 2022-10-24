@@ -22,3 +22,8 @@ function showDetails(){
 function hideDetails(){
     mainClass.classList.add(HIDDEN);
 }
+function soundClick(){
+    var audio = new Audio();/*создаем новый элемент аудио*/
+    audio.src = 'click.mp3';/*указываем путь к звуку клика*/
+    audio.autoplay = true;/*автоматически запускаем*/
+}
